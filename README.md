@@ -8,7 +8,7 @@ Este repositório contém o código-fonte para o site "Cafeterias de Betim", uma
 - [Visão Geral](#visão-geral)
 - [Requisitos](#requisitos)
 - [Como Executar](#como-executar)
-- 
+
 ## Visão Geral
 
 O projeto "Cafeterias de Betim" é um site que destaca as cafeterias na região de Betim. Ele utiliza React para a construção da interface do usuário e inclui recursos como navegação suave e integração com o Power BI para visualização de dados.
