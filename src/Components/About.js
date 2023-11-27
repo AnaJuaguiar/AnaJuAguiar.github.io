@@ -1,6 +1,6 @@
 import React from "react";
 import AboutBackground from "../Assets/about-background.png";
-import AboutBackgroundImage from "../Assets/about-background-image.png";
+import AboutBackgroundImage from "../Assets/5091972.png";
 import { BsFillPlayCircleFill } from "react-icons/bs";
 
 const About = () => {
@@ -13,22 +13,20 @@ const About = () => {
         <img src={AboutBackgroundImage} alt="" />
       </div>
       <div className="about-section-text-container">
-        <p className="primary-subheading">About</p>
+        <p className="primary-subheading">Sobre o Projeto</p>
         <h1 className="primary-heading">
-          Food Is An Important Part Of A Balanced Diet
+          Café é o que nos mantém de pé
         </h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          Este trabalho foi desenvolvido com o objetivo real de facilitar as escolhas de conhecer as melhores cafeterias de Betim.
         </p>
         <p className="primary-text">
-          Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
+          Para a disciplina de Power BI do curso de Sistemas de Informação na PUC MINAS Betim
+          Todos os dados foram coletados com o auxílio do Google Maps.
         </p>
         <div className="about-buttons-container">
-          <button className="secondary-button">Learn More</button>
+          <button className="secondary-button">Sobre nós</button>
           <button className="watch-video-button">
-            <BsFillPlayCircleFill /> Watch Video
           </button>
         </div>
       </div>

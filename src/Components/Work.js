@@ -1,34 +1,33 @@
 import React from "react";
-import PickMeals from "../Assets/pick-meals-image.png";
-import ChooseMeals from "../Assets/choose-image.png";
-import DeliveryMeals from "../Assets/delivery-image.png";
+import Bia from "../Assets/bia.png";
+import Ana from "../Assets/ana.png";
+import Clovis from "../Assets/clovis.png";
 
 const Work = () => {
   const workInfoData = [
     {
-      image: PickMeals,
-      title: "Pick Meals",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      image: Bia,
+      title: "Bianca Rangel",
+      text: "Estudante do curso de Sistemas de Informação.",
     },
     {
-      image: ChooseMeals,
-      title: "Choose How Often",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      image: Ana,
+      title: "Ana Júlia Aguiar",
+      text: "Estudante do curso de Sistemas de Informação.",
     },
     {
-      image: DeliveryMeals,
-      title: "Fast Deliveries",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      image: Clovis,
+      title: "Clóvis Tavares",
+      text: "Orientador do Projeto, Professor na PUC MINAS",
     },
   ];
   return (
     <div className="work-section-wrapper">
       <div className="work-section-top">
-        <p className="primary-subheading">Work</p>
-        <h1 className="primary-heading">How It Works</h1>
+        <p className="primary-subheading">Pessoas Envolvidas</p>
+        <h1 className="primary-heading">Quem Construiu Tudo</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+          O trabalho realizado para a disciplina de Power BI do curso de Sistemas de Informação na PUC MINAS Betim. Entenda quem faz parte disso
         </p>
       </div>
       <div className="work-section-bottom">
