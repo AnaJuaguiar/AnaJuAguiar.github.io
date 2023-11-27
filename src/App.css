@@ -293,6 +293,13 @@ nav {
 .work-section-info h2 {
   margin: 1rem 0rem;
 }
+.power-bi-embed-container{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .work-section-bottom {
   margin-top: 5rem;
   display: flex;

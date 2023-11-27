@@ -4,6 +4,13 @@ import AboutBackgroundImage from "../Assets/5091972.png";
 import { BsFillPlayCircleFill } from "react-icons/bs";
 
 const About = () => {
+  const handleButtonClick = () => {
+    const workSection = document.querySelector(".work-section-wrapper");
+
+    if (workSection) {
+      workSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className="about-section-container">
       <div className="about-background-image-container">
@@ -25,9 +32,7 @@ const About = () => {
           Todos os dados foram coletados com o auxílio do Google Maps.
         </p>
         <div className="about-buttons-container">
-          <button className="secondary-button">Sobre nós</button>
-          <button className="watch-video-button">
-          </button>
+          <button className="secondary-button" onClick={handleButtonClick}>Sobre nós</button>
         </div>
       </div>
     </div>
